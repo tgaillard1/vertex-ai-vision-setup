@@ -1,0 +1,1 @@
+# vertex-ai-vision-setup
