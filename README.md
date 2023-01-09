@@ -1,9 +1,9 @@
 # Vertex Vision AI
 **- This repo provides a process to perform the following tasks for Vertex AI Vision AI**
-    - Trigger a function from a GCS bucket to transfer videos and images to transfer GCS buckets
-    - Shell script to download files from corresponding GCS buckets on a Compute Engine server
-    - Script to ingest videos via the viactl (Vision SDK) to a Vertex Vision AI stream
-    - Steps to invoke the Person/Face blur to the ingested videos and store in Vision Warehouse
+    **- Trigger a function from a GCS bucket to transfer videos and images to transfer GCS buckets**
+    **- Shell script to download files from corresponding GCS buckets on a Compute Engine server**
+    **- Script to ingest videos via the viactl (Vision SDK) to a Vertex Vision AI stream**
+    **- Steps to invoke the Person/Face blur to the ingested videos and store in Vision Warehouse**
 
 <img src="https://github.com/tgaillard1/vertex-ai-vision-setup/blob/main/images/overview-vision1.png" alt="Video Push Architecture"/>
 
