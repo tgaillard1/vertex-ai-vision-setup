@@ -25,7 +25,7 @@ This repo contains a process to deploy videos to your GCP environment.
 
         * Navigate to **console** -> **Vertex AI Vision** -> **Warehouses**
         * Click **CREATE**
-        * Name your Warehouse, e.g., **discount-tire-video-warehouse**
+        * Name your Warehouse, e.g., **store1-video-warehouse**
         * Update the default Time to Live (TTL) to at least **90** days.  This should be modified for your long term needs
         * Select **CREATE**
   
@@ -33,7 +33,7 @@ This repo contains a process to deploy videos to your GCP environment.
 
         * Navigate to **console** -> **Vertex AI Vision** -> **Applications**
         * Click **CREATE**
-        * Name your Application, e.g., **discount-tire-application**
+        * Name your Application, e.g., **store1-application**
         * Select Region --> **us-central1** 
         * Select **CREATE**
         * Select **Streams** from the Connectors location.
@@ -43,7 +43,7 @@ This repo contains a process to deploy videos to your GCP environment.
         * Select the "Box" Person blur in the studio.  On the right hand side of the console select **Full occlusion**
         * Select **Vision AI Warehouse** from the Connectors location.
 	* Select the "Box" Vision AI Warehouse in the studio.  On the right hand side of the console select **CONNECT WAREHOUSE**
-	* Choose the radio button **Select from existing warehouses** then select the Warehouse you created earlier, e.g., discount-tire-video-warehouse, then select **CONNECT**
+	* Choose the radio button **Select from existing warehouses** then select the Warehouse you created earlier, e.g., store1-video-warehouse, then select **CONNECT**
         * Your Studio should look like this:
         ![App-Studio](https://github.com/tgaillard1/vertex-ai-vision-setup/blob/main/images/app-studio1.png)
 
@@ -214,8 +214,8 @@ This repo contains a process to deploy videos to your GCP environment.
        For best results manually put a mp4 file in the transfer GCS bucket you created and run the script.  In the default configuration it will run for ~95 seconds and then terminate.  To validate the upload:
 
         * Navigate to **console --> Vertex AI Vision --> Warehouses**
-        * Select **VIEW ASSETS** for the Warehouse you are using for the stream, e.g., discount-tire-video-warehouse
-        * For the **Stream name** capture the full name of the steam from the face blur component, e.g., application-output-discount-tire-application....
+        * Select **VIEW ASSETS** for the Warehouse you are using for the stream, e.g., store1-video-warehouse
+        * For the **Stream name** capture the full name of the steam from the face blur component, e.g., application-output-store1-application....
         * For the **Date range** select "All time"
         * Your Studio should look like this:
         ![Vertex-Warehous-Search](https://github.com/tgaillard1/vertex-ai-vision-setup/blob/main/images/warehouse-search.png)
