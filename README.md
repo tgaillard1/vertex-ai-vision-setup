@@ -1,7 +1,7 @@
 # Vertex Vision AI
 This repo contains a process to deploy videos to your GCP environment.
 
-<img src="https://github.com/tgaillard1/vertex-ai-vision-setup/blob/main/images/overview-vision.png" alt="Video Push Architecture"/>
+<img src="https://github.com/tgaillard1/vertex-ai-vision-setup/blob/main/images/overview-vision1.png" alt="Video Push Architecture"/>
 
 ## Setup Steps
 
