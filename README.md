@@ -137,7 +137,7 @@
 
        * **SERVICE_ACCOUNT_NAME**: the name of the service account
        * **PROJECT_ID**: the project ID where you created the service account
-       * **ROLE**: the role to grant
+       * **ROLE**: the role to grant (roles/visionai.editor)
         
     * Generate the key file:
     
