@@ -128,7 +128,7 @@
         ```
         Replace **NAME** with a name for the service account.
         
-    * Grant roles to the service account. Run the following command once for each of the following IAM roles: roles/visionai.editor:
+    * Grant roles to the service account. Run the following command once for each of the following IAM roles: *roles/visionai.editor*:
     
         ```
         gcloud projects add-iam-policy-binding PROJECT_ID --member="serviceAccount:SERVICE_ACCOUNT_NAME@PROJECT_ID.iam.gserviceaccount.com" --role=ROLE
